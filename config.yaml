@@ -1,0 +1,73 @@
+baseURL: "https://cogniwave.pt/"
+theme: "up-business-theme"
+languageCode: "pt-PT"
+
+title: "Cogniwave"
+
+# googleAnalytics: ""
+
+summaryLength: 20
+
+params:
+  title: "Cogniwave"
+  description: "Especializamo-nos em fornecer serviços digitais que permitem ajudam os nossos clientes a criar, crescer e manter os seus negócios"
+  images: 
+    - "images/hero-image.png"
+
+  logo: "logo.png"
+
+  favicons:
+    themeColor: "#34495e"
+    backgroundColor: "#34495e"
+    faviconColor: "#f4f7f7"
+
+  # social:
+    # dribbble: "#"
+    # instagram: "#"
+    # facebook: "#"
+    # twitter: "#"
+
+  location:
+    - "Barreiro, Portugal"
+
+  contact:
+    - "tiago.ribeiro@cogniwave.pt"
+
+  copyright: "© 2024 Cogniwave All Rights Reserved"
+
+menus:
+  main:
+    # - name: "Quem somos"
+    #   url: "/sobre"
+    #   weight: 1
+
+    # - name: "O nosso processo"
+    #   url: "/processo"
+    #   weight: 2
+
+    - name: "Blog"
+      url: "/blog"
+      weight: 3
+
+  buttons:
+    - name: "Contacte-nos"
+      url: "/contact"
+      weight: 5
+      pre: "btn btn-primary text-light"
+
+  footer:
+    - name: "Página principal"
+      url: "/"
+      weight: 1
+
+    - name: "Blog"
+      url: "/blog"
+      weight: 2
+
+    - name: "Contactar"
+      url: "/contact"
+      weight: 3
+
+taxonomies:
+  series: "series"
+  tags: "tags"

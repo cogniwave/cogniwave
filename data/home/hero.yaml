@@ -1,0 +1,15 @@
+enabled: true
+id: "hero"
+
+content:
+  title: "**Transforme** o seu negócio"
+  text: "Nos dias de hoje o digital é tudo. Todos negócios os que não conseguiram adaptar-se a esta nova realidade acabar por desaparecer. Não seja um deles"
+
+  buttonPrimary:
+    label: "Vamos conversar"
+    url: "contact"
+
+  # buttonSecondary:
+  #   label: "Let's talk"
+  #   url: "#/contacts"
+

@@ -1,0 +1,27 @@
+enabled: true
+id: "services"
+
+content:
+  title: "Principais serviços"
+  text: "No processo da modernização vários setores são afetados. Nós temos especialistas para tudo"
+  cards:
+    - image: "images/services-web-development.png"
+      title: "Web e Mobile"
+      text: "Precisa de um simples site, algo mais complexo ou até mesmo aplicação móvel?"
+      button:
+        label: "Learn more"
+        url: "/contact"
+
+    - image: "images/language.png"
+      title: "Idiomas, legendagem, transcrições"
+      text: "Precisa de publicações noutras linguais? Legendagens ou transcrições de videos / audios?"
+      button:
+        label: "Learn more"
+        url: "/contact"
+
+    - image: "images/script.png"
+      title: "Scripting and crawlers"
+      text: "Precisa de automizar algum processo interno ou externo?"
+      button:
+        label: "Learn more"
+        url: "/contact"

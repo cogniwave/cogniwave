@@ -1,0 +1,10 @@
+{
+  "name": "cogniwave",
+  "version": "1.0.0",
+  "description": "Company website, built using HUGO",
+  "scripts": {
+    "dev": "hugo server -D"
+  },
+  "author": "Tiago Ribeiro <tiago.ribeiro@cogniwave.pt>",
+  "license": "ISC"
+}
