@@ -1,0 +1,79 @@
+{{ define "main" }}
+<section class="section blog-list py-5">
+  <div class="container">
+    <div class="row justify-content-center pb-5">
+      <div class="col-12 col-xl-6">
+        <form
+          method="post"
+          action="https://forms.un-static.com/forms/e6443a2fdbfe3c87e159ca3819882f60bf3a08d5"
+        >
+          <div class="form-group row mb-3">
+            <label for="name" class="col-4 col-form-label">Nome</label>
+            <div class="col-8">
+              <div class="input-group">
+                <div class="input-group-addon">
+                  <i class="fa fa-user"></i>
+                </div>
+                <input
+                  id="name"
+                  name="name"
+                  placeholder="Insira o seu nome"
+                  type="text"
+                  required="required"
+                  class="form-control"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="form-group row mb-3">
+            <label for="email" class="col-4 col-form-label">E-mail</label>
+            <div class="col-8">
+              <div class="input-group">
+                <div class="input-group-addon">
+                  <i class="fa fa-envelope"></i>
+                </div>
+                <input
+                  id="email"
+                  name="email"
+                  placeholder="Como posso contacta-lo"
+                  type="text"
+                  required="required"
+                  class="form-control"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="form-group row mb-3">
+            <label for="message" class="col-4 col-form-label">Messagem</label>
+            <div class="col-8">
+              <textarea
+                id="message"
+                name="message"
+                cols="40"
+                rows="10"
+                required="required"
+                placeholder="Qual é o seu projeto?"
+                class="form-control"
+              ></textarea>
+            </div>
+          </div>
+
+          <div class="form-group row mb-3">
+            <div class="offset-4 col-8">
+              <button name="submit" type="submit" class="btn btn-primary">
+                Enviado
+              </button>
+
+              <small>
+                (Powered by
+                <a rel="nofollow" href="Un-static Forms">Un-static Forms</a>)
+              </small>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+{{end}}

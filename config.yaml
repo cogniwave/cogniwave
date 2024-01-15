@@ -1,5 +1,5 @@
 baseURL: "https://cogniwave.pt/"
-theme: "up-business-theme"
+theme: "forked-up-business-theme"
 languageCode: "pt-PT"
 
 title: "Cogniwave"
