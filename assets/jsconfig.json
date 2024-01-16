@@ -1,8 +1,10 @@
 {
-  "compilerOptions": {
-    "baseUrl": ".",
-    "paths": {
-      "*": ["../themes/forked-up-business-theme/assets/*"]
-    }
+ "compilerOptions": {
+  "baseUrl": ".",
+  "paths": {
+   "*": [
+    "../themes/forked-up-business-theme/assets/*"
+   ]
   }
+ }
 }
