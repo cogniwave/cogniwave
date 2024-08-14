@@ -14,8 +14,10 @@ content:
     - avatar: "images/testimonials/alexis.jpeg"
       text: "I had the pleasure of working directly with Cogniwave at Accountable. They were a great addition to the team (working mostly on our node.js back-end), delivering consistently and with a high level of quality. He is very responsive to feedback and able to adapt quickly to the specific standards of the company. Cogniwave's teams are a lot of fun to be around"
       client: "Alexis Eggermont"
+      website: "https://www.accountable.eu/en-be/"
 
     - avatar: "images/testimonials/lopo.jpeg"
-      text: "Worked with him in several projects and surely recommend him to anyone willing to have a great programmer on his/her team."
+      text: "Worked with him in several projects and surely recommend him to anyone willing to have a great programmer on their team."
       client: "Lopo Lencastre de Almeida"
+      website: "https://oneorzero.eu/"
   
